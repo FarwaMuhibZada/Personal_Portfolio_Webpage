@@ -95,14 +95,14 @@
   line-height: 1.5rem;
 }
 
-.card-img  {
+.card-img {
   width: 250px;
   display: flex;
   justify-content: center;
   margin: 3px 0;
 }
 
-.card-img  img {
+.card-img img {
   width: 100%;
 }
 
@@ -133,8 +133,7 @@ i {
   color: white;
 }
 
-@media only screen and (max-width : 700px) {
-
+@media only screen and (max-width: 700px) {
   .img_text {
     color: white;
     position: absolute;
@@ -173,5 +172,5 @@ i {
     justify-content: center;
     margin: 3px auto;
   }
-
 }
+
