@@ -8,35 +8,48 @@
 
 ```css
 
-@media (max-width: 800px) {
-  #header {
-    flex-wrap: wrap;
+@media only screen and (max-width : 700px) {
+
+  .img_text {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 1.1rem;
+    margin: 30px;
+    line-height: 4rem;
   }
 
-  #nav-bar {
-    display: none;
-  }
 
   .card-wraper {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
 
   .card {
     width: 100%;
-    margin-top: 100px; 
+    margin-top: 100px;
   }
 
   footer {
     flex-wrap: wrap;
     margin-bottom: 30px;
   }
+
   .right-side {
     width: 100%;
   }
 
   .left-side {
     display: none;
-  } 
+  }
+
+  .card-img  {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 3px auto;
+  }
+
 }
 
 ```
@@ -47,9 +60,13 @@
 
 here is a demo of Personal Portfolio Webpage.
 
-![first page]()
+![first page](./images/Capture.PNG)
 
-![second page]()
+![second page](./images/Capture2.PNG)
+
+how it looks in smalll screen size
+
+![second page](./images/Capturer_responsiv.PNG)
 
 
 
