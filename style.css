@@ -40,7 +40,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-
 }
 
 .img_text {
@@ -52,7 +51,6 @@
   margin: 30px;
   line-height: 4rem;
 }
-
 
 .card-wraper {
   display: flex;
@@ -91,10 +89,12 @@
   margin: 20px;
   border-radius: 30px;
 }
+
 .card-ul {
   list-style: none;
   line-height: 1.5rem;
 }
+
 .card-img  {
   width: 250px;
   display: flex;
@@ -122,19 +122,16 @@ footer {
 }
 
 .icon-list {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   list-style: none;
-
 }
 
 i {
   font-size: 3.3rem;
   padding: 30px 20px;
   color: white;
-
 }
-
 
 @media only screen and (max-width : 700px) {
 
@@ -147,7 +144,6 @@ i {
     margin: 30px;
     line-height: 4rem;
   }
-
 
   .card-wraper {
     flex-wrap: wrap;
@@ -171,7 +167,7 @@ i {
     display: none;
   }
 
-  .card-img  {
+  .card-img {
     width: 200px;
     display: flex;
     justify-content: center;
@@ -179,4 +175,3 @@ i {
   }
 
 }
-
